@@ -149,6 +149,8 @@ public:
     RenderEngine& getRenderEngine() const {
         return *mRenderEngine;
     }
+    
+    void setTranslate(int x, int y);
 
 private:
     friend class Client;
